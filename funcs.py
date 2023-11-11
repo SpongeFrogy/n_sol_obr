@@ -26,6 +26,9 @@ def plot_settings():
     # plt.rcParams['figure.figsize'] = [7.0, 3.0]
     plt.rcParams['figure.dpi'] = 100
 
+    plt.rcParams["legend.labelcolor"] = 'w'
+    plt.rcParams["axes.titlecolor"] = "w"
+
     # plt.rcParams["axes.spines.bottom.color"]
     # plt.rcParams["axes.spines.left"] = '#0d1117'
     plt.rcParams["axes.spines.right"] = False
